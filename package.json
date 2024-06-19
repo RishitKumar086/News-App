@@ -1,0 +1,14 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "A news application for displaying news on a specific topic",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishit",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
