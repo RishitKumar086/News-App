@@ -25,4 +25,4 @@ This is a simple news application created using HTML, CSS, and JavaScript. It fe
 ## Credits
 - News data is fetched from News API.
 
-## Check it out hera : https://rishitkumar086.github.io/News-App
+## Check it out here : https://rishitkumar086.github.io/News-App
