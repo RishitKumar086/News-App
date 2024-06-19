@@ -18,16 +18,11 @@ This is a simple news application created using HTML, CSS, and JavaScript. It fe
 - **app.css**: CSS file for styling the webpage.
 - **app.js**: JavaScript file for fetching news data and updating the DOM.
 
-## Setup
-1. Clone the repository.
-2. Open `index.html` in your web browser.
-
 ## How to Use
-- Upon opening the webpage, you'll see the latest news articles.
+- Upon opening the webpage enter the topic on which you want the news articles on
 - Click on any headline to read the full article.
 
 ## Credits
-- News data is fetched from [API Provider Name].
+- News data is fetched from News API.
 
-## Demo
-[Link to live demo](#)
+## Check it out hera : https://rishitkumar086.github.io/News-App
