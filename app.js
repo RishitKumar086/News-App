@@ -14,9 +14,9 @@ newsForm.addEventListener("submit", async (e) => {
   return;
 });
 
-const fetchNews = async function () {
+const fetchNews = async function (query) {
   const request = await fetch(
-    `https://newsapi.org/v2/everything?q=trading&apiKey=${API_KEY}`
+    `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}`
   );
   // console.log(request);
   const data = await request.json();
