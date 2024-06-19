@@ -26,9 +26,10 @@ const fetchNews = async function (query) {
 const renderNews = function (data) {
   newsContainer.classList.remove("hidden");
   const newsList = newsContainer.querySelector(".news-list");
+  newsList.innerHTML = "";
   const numberOfArticlesToBeRendered = 15;
   data.slice(0, numberOfArticlesToBeRendered).forEach((element) => {
-    const html = `<li class="news-item"><p>Author:${element.author}</p>
+    const html = `<li class="news-item">
     <h2><a href="${element.url}" target="_blank">${element.title}</a></h2>
     </li>`;
     newsList.insertAdjacentHTML("beforeend", html);
