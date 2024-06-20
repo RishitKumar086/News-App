@@ -22,7 +22,7 @@ newsForm.addEventListener("submit", async (e) => {
 const fetchNews = async function (query) {
   try {
     const response = await fetch(
-      `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}`
+      `https://newsapi.org/v2/everything?q=${query}&apiKey=${process.env.API_KEY}`
     );
     if (!response.ok) {
       throw new Error(`Failed to fetch: ${response.status}`);
