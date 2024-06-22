@@ -1,7 +1,5 @@
 "use strict";
 
-import { API_KEY } from "./config.js";
-
 const newsForm = document.querySelector(".news-form");
 const newsContainer = document.querySelector(".news-container");
 
